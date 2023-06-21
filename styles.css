@@ -1,10 +1,10 @@
 body {
-    background-image: url("image.webp");
+    background-color: bisque;
 }
 h1 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif ;
-    font-size: 110px;
+    font-size: 100px;
     color: red;
 }
 ul {
@@ -22,3 +22,14 @@ button {
   border-radius: 5px;
   text-align: center;
 }
+.column {
+    float: left;
+    width: 32%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
